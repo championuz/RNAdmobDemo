@@ -1,7 +1,11 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Text, View, Button } from 'react-native'
+import { InterstitialAd, TestIds, AdEventType } from 'react-native-google-mobile-ads';
+
 
 const Details = ({navigation}) => {
+
+
   return (
     <View>
     <Text style={{textAlign: 'center'}}>Details</Text>
